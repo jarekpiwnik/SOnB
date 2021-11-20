@@ -1,9 +1,9 @@
-package com.example.gui;
+package com.example.projekt_sonb;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class GuiController {
     @FXML
     private Label welcomeText;
 

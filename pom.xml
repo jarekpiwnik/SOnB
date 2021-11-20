@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>GUI</artifactId>
+    <artifactId>Projekt_SOnB</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>GUI</name>
+    <name>Projekt_SOnB</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.gui/com.example.gui.HelloApplication</mainClass>
+                            <mainClass>com.example.projekt_sonb/com.example.projekt_sonb.Gui</mainClass>
                         </configuration>
                     </execution>
                 </executions>
