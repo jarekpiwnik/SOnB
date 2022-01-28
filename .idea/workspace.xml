@@ -5,49 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423d564-876b-40a8-86cf-c480a60d7de9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projekt_SOnB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonInputFaultMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonResultFaultMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/InputFaultMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/InputGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/ResultFaultMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/ServerMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/voter/Voter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/TestServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/TestServer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/TestServer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/TestServer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/TestServer$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/TestServer$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/TestServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TestServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt_SOnB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt_SOnB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/GuiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projekt_sonb/gui-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projekt_sonb/gui-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/Gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/GuiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/GuiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/gui-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/gui-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Server.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="21BrwQbWIew1TJzSsGrc2b7mQ9t" />
   <component name="ProjectViewState">
@@ -57,7 +68,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Laboratorium/Lab3/java_sonb" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.projekt_sonb" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Projekt_SOnB" type="Application" factoryName="Application">
@@ -77,10 +100,48 @@
       <option name="presentableId" value="Default" />
       <updated>1637425568633</updated>
       <workItem from="1637425570218" duration="737000" />
+      <workItem from="1637426911202" duration="4585000" />
+      <workItem from="1637480668521" duration="825000" />
+      <workItem from="1637481543634" duration="1450000" />
+      <workItem from="1637483637991" duration="49770000" />
+      <workItem from="1637917902437" duration="944000" />
+      <workItem from="1637920810116" duration="15951000" />
+      <workItem from="1637942847187" duration="25678000" />
+      <workItem from="1638697009664" duration="283000" />
+      <workItem from="1639842786177" duration="19506000" />
+      <workItem from="1640010938406" duration="13972000" />
+      <workItem from="1643006695013" duration="301000" />
+      <workItem from="1643010829867" duration="213000" />
+      <workItem from="1643011107282" duration="13887000" />
+      <workItem from="1643027618561" duration="1180000" />
+      <workItem from="1643037160381" duration="4241000" />
+      <workItem from="1643041905535" duration="3794000" />
+      <workItem from="1643113172166" duration="88066000" />
+      <workItem from="1643370623261" duration="10000" />
+      <workItem from="1643370713548" duration="459000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.InstantiationException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../../../e-Book/javafx-tworzenie-graficznych-interfejsow-uzytkownika-urszula-piechota-jacek-piechota/javfxt/src/rozdzial22/Listing22_24.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

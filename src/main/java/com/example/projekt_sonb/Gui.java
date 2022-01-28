@@ -8,16 +8,22 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class Gui extends Application {
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Gui.class.getResource("gui-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
+        Scene scene = new Scene(fxmlLoader.load(), 800, 400);
         stage.setTitle("Projekt SOnB");
         stage.setScene(scene);
         stage.show();
+        stage.setResizable(false);
     }
 
     public static void main(String[] args) {
         launch();
     }
+
 }
+
+
+

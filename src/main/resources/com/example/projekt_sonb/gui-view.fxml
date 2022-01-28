@@ -1,14 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="BASELINE_LEFT" prefHeight="356.0" prefWidth="442.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.2" fx:controller="com.example.projekt_sonb.GuiController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekt_sonb.GuiController">
+    <tabs>
+        <Tab text="Servers">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <SplitPane dividerPositions="0.6588628762541806" layoutX="-1.0" prefHeight="370.0" prefWidth="648.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <items>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="355.0" prefWidth="327.0">
+                                    <children>
+                                        <TableView fx:id="TabServ" editable="true" layoutX="6.0" layoutY="-1.0" prefHeight="368.0" prefWidth="409.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-35.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
 
-    <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Hello!" />
-</VBox>
+                                                <TableColumn fx:id="ActionColumn" minWidth="75.0" prefWidth="75.0" text="Action">
+                                                    <cellValueFactory>
+                                                         <PropertyValueFactory property="actionButton" />
+                                                    </cellValueFactory>
+                                                </TableColumn>
+                                                <TableColumn fx:id="ServerColumn" prefWidth="75.0" sortable="false" text="Server" />
+                                                <TableColumn fx:id="InputModeColumn" prefWidth="75.0" text="In. F. Mode">
+                                                     <cellValueFactory>
+                                                         <PropertyValueFactory property="inputFaultModeButton" />
+                                                     </cellValueFactory>
+                                                 </TableColumn>
+                                                <TableColumn fx:id="InputColumn" prefWidth="75.0" text="Input" />
+                                                <TableColumn fx:id="FaultModeColumn" prefWidth="75.0" text="Out F. Mode">
+                                                    <cellValueFactory>
+                                                        <PropertyValueFactory property="resultFaultModeButton" />
+                                                    </cellValueFactory>
+                                                </TableColumn>
+                                                <TableColumn fx:id="FaultValueColumn" prefWidth="75.0" text="Fault Value" />
+                                                <TableColumn fx:id="ResultColumn" prefWidth="75.0" text="Result" />
+                                            </columns>
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <cursor>
+                                                <Cursor fx:constant="DEFAULT" />
+                                            </cursor>
+                                        </TableView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="200.0" minHeight="0.0" minWidth="0.0" prefHeight="368.0" prefWidth="204.0">
+                                    <children>
+                                        <Label fx:id="clockLabel" layoutX="121.0" layoutY="34.0" text="Clock" />
+                                        <TextArea fx:id="clockArea" layoutX="84.0" layoutY="60.0" prefHeight="38.0" prefWidth="104.0" text="clock" />
+                              <Label fx:id="wynikLabel" layoutX="122.0" layoutY="120.0" text="Wynik" />
+                              <TextArea fx:id="wynikArea" layoutX="86.0" layoutY="138.0" prefHeight="40.0" prefWidth="101.0" />
+                                    </children>
+                                </AnchorPane>
+                            </items>
+                        </SplitPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
