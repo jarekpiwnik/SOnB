@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423d564-876b-40a8-86cf-c480a60d7de9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonInputFaultMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonResultFaultMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/InputFaultMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/InputGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/ResultFaultMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/ServerMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/voter/Voter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt_SOnB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt_SOnB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Gui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/GuiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/controls/ButtonAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/ServerMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projekt_sonb/other_classes/ServerMode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projekt_sonb/gui-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projekt_sonb/gui-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/Gui.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/GuiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/GuiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/controls/ButtonAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/controls/ButtonAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/gui-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/gui-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/other_classes/ServerMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/projekt_sonb/other_classes/ServerMode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +106,9 @@
       <workItem from="1643113172166" duration="88066000" />
       <workItem from="1643370623261" duration="10000" />
       <workItem from="1643370713548" duration="459000" />
+      <workItem from="1643649770953" duration="3840000" />
+      <workItem from="1643654026102" duration="31000" />
+      <workItem from="1643654189868" duration="700000" />
     </task>
     <servers />
   </component>

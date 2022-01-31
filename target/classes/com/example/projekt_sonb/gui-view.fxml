@@ -50,10 +50,8 @@
                                 </AnchorPane>
                                 <AnchorPane layoutX="200.0" minHeight="0.0" minWidth="0.0" prefHeight="368.0" prefWidth="204.0">
                                     <children>
-                                        <Label fx:id="clockLabel" layoutX="121.0" layoutY="34.0" text="Clock" />
-                                        <TextArea fx:id="clockArea" layoutX="84.0" layoutY="60.0" prefHeight="38.0" prefWidth="104.0" text="clock" />
-                              <Label fx:id="wynikLabel" layoutX="122.0" layoutY="120.0" text="Wynik" />
-                              <TextArea fx:id="wynikArea" layoutX="86.0" layoutY="138.0" prefHeight="40.0" prefWidth="101.0" />
+                              <Label fx:id="resultLabel" layoutX="122.0" layoutY="120.0" text="Wynik" />
+                              <TextArea fx:id="resultArea" layoutX="86.0" layoutY="138.0" prefHeight="40.0" prefWidth="101.0" />
                                     </children>
                                 </AnchorPane>
                             </items>

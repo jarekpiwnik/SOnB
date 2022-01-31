@@ -31,9 +31,6 @@ public class Server extends Button {
     private Button inputFaultModeButton;
     private Button resultFaultModeButton;
 
-    //@EqualsAndHashCode.Exclude
-    //public String Action;
-
     public Server(int serverID) {
         input = new SimpleIntegerProperty(0);
         result = new SimpleIntegerProperty(0);
@@ -43,8 +40,7 @@ public class Server extends Button {
         this.inputFaultModeButton = new ButtonInputFaultMode(InputFaultMode.NONE, this);
         this.resultFaultModeButton = new ButtonResultFaultMode(ResultFaultMode.NONE, this);
         this.faultValue = new SimpleIntegerProperty(new Random().nextInt(-10, 11));
-        setServerMode(ServerMode.RUNNING);
-        //this.textProperty().bindBidirectional(nameProperty());
+        setServerMode(ServerMode.RUN);
     }
 
     /////////////////////////// Input ///////////////////////////////////
@@ -94,23 +90,12 @@ public class Server extends Button {
     public ServerMode getServerMode() {
         return serverMode;
     }
-    //  public void setServer(String server) {
-    //     this.server.set(server);
-    // }
-    ////////////////////////////////////////////////////////////////////
-    // public void setServerMode(ServerMode serverMode) {
-    //   this.serverMode = serverMode;
-    //  setBackground(
-    //          new Background(
-    //                  new BackgroundFill(serverMode.getBgColor(), new CornerRadii(5.0), new Insets(-5.0))));
-    //  setTextFill(serverMode.getTextColor());
-    // }
 
     /////////////////////////////////////////////////////////////////////
-    // @Override
-    // public void fire() {
-    //    actionButton.fire();
-    // }
+     @Override
+     public void fire() {
+       actionButton.fire();
+     }
 
     //////////////////////////// Silnia /////////////////////////////////
     private static int silnia(int i) {
@@ -125,8 +110,7 @@ public class Server extends Button {
 
     private void run() {
         while (true) {
-            //System.out.println(Generator.gen);
-            if (ServerMode.RUNNING.equals(serverMode)) {
+            if (ServerMode.RUN.equals(serverMode)) {
                 if (InputFaultMode.NONE.equals(inputFaultMode)) {
                     setInput(InputGenerator.gen);
                     if (ResultFaultMode.NONE.equals(resultFaultMode)) {
@@ -143,7 +127,7 @@ public class Server extends Button {
                     } else if (ResultFaultMode.MANUAL.equals(resultFaultMode)) {
                     }
                 } else if (InputFaultMode.AUTO.equals(inputFaultMode)) {
-                    setInput((new Random().nextInt(1, 10)));
+                    setInput((new Random().nextInt(3, 7)));
                     if (ResultFaultMode.NONE.equals(resultFaultMode)) {
                         setFaultValue(0);
                     } else if (ResultFaultMode.AUTO.equals(resultFaultMode)) {
@@ -154,8 +138,6 @@ public class Server extends Button {
                 setResult((silnia(getInput())) + getFaultValue());
             } else {
                 setResult(0);
-                serverId = 0;
-                server = SERVER_NAME + serverId;
             }
             try {
                 Thread.sleep(200);

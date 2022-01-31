@@ -18,12 +18,12 @@ public class ButtonAction extends Button {
 
     @Override
     public void fire() {
-        if (!server.getServerMode().equals(ServerMode.RUNNING)) {
+        if (!server.getServerMode().equals(ServerMode.RUN)) {
             this.setText(initialMessage);
-            server.setServerMode(ServerMode.RUNNING);
+            server.setServerMode(ServerMode.RUN);
         } else {
             this.setText(afterClickMessage);
-            server.setServerMode(ServerMode.STOPPED);
+            server.setServerMode(ServerMode.STOP);
         }
         super.fire();
     }
